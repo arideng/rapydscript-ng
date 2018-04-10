@@ -1,0 +1,14 @@
+GlowScript 2.7 VPython
+# You need the line above for browser-based vpython
+
+# The simplest possible vpython program:
+box(color = vector(1.0, 1.0, 1.0))
+
+# Try changing the color: the components are
+#   red, green, blue    each from 0.0 to 1.0
+
+# Then, add a second parameter:   size = vector(2.0, 1.0, 0.1)
+#       The order of those three numbers: Length, Height, Width
+
+# Then, a third parameter:  axis = vector(2, 5, 1)
+#       The order of those three numbers: x, y, z
